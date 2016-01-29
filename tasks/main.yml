@@ -13,7 +13,6 @@
     state: present
     update_cache: yes
   with_items: memcached_debian_pkgs
-  environment: env
   when: ansible_os_family == "Debian"
 
 - name: Templating out the client configuration file
