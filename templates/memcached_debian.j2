@@ -1,0 +1,8 @@
+# memcached default config file
+-d
+logfile /var/log/memcached.log
+-m {{ memcached_cache_size }}
+-p {{ memcached_port }}
+-u memcache
+-l {{ memcached_listen_address }}
+-c {{ memcached_max_conn }}

@@ -1,0 +1,23 @@
+---
+galaxy_info:
+  author: Lucas do Amaral Saboya
+  description: Highly configurable ansible role to deploy a rails app from a git repo
+  company: HE:Labs
+  license: BSD
+  min_ansible_version: 1.4
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+  categories:
+    - web
+dependencies: []

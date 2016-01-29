@@ -1,0 +1,12 @@
+---
+# handlers file for helabs.memcached
+- name: restart memcached
+  service:
+    name: memcached
+    state: restarted
+
+- name: start memcached
+  service:
+    name: memcached
+    state: started
+    enabled: yes
