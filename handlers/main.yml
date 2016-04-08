@@ -10,3 +10,6 @@
     name: memcached
     state: started
     enabled: yes
+
+- name: flush memcached
+  shell: "echo 'flush_all' | nc localhost 11211"
