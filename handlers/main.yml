@@ -12,5 +12,5 @@
     enabled: yes
 
 - name: flush memcached
-  shell: "echo 'flush_all' | nc localhost 11211"
+  shell: "echo 'flush_all' | nc {{ memcached_listen_address }} {{ memcached_port }}"
   ignore_errors: yes
