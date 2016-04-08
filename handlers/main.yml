@@ -13,3 +13,4 @@
 
 - name: flush memcached
   shell: "echo 'flush_all' | nc localhost 11211"
+  ignore_errors: yes
