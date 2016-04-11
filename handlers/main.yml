@@ -13,4 +13,3 @@
 
 - name: flush memcached
   shell: "echo 'flush_all' | nc {{ memcached_listen_address }} {{ memcached_port }}"
-  ignore_errors: yes
