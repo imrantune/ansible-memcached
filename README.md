@@ -1,7 +1,7 @@
 Memcached Ansible Role
 =========
 
-![HE:Labs](https://raw.githubusercontent.com/Helabs/helabs.github.com/master/images/logo.png "HE:Labs")
+![HE:Labs](http://helabs.com/images/brand-helabs.png "HE:Labs")
 
 This is a simple role, based on [bennojoy/memcached](https://github.com/bennojoy/memcached)
 that installs and configures Memcached.
